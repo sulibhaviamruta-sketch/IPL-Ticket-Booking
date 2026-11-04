@@ -1,0 +1,237 @@
+
+/* 1. BASIC STYLING */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* 2. MAIN HEADING */
+
+h1 {
+    text-align: center;
+}
+
+/* 3. NAVIGATION BAR */
+
+nav {
+    background-color: #0b1f3a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc83d;
+}
+
+/* 4. HERO SECTION */
+
+#home {
+    background-color: #173d68;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#home h1,
+#home h2,
+#home h3 {
+    color: white;
+    font-size: 32px;
+}
+
+#home p {
+    font-size: 17px;
+}
+
+/* 5. HERO BUTTONS */
+
+#home button,
+#home a {
+    background-color: #ffc83d;
+    color: #0b1f3a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 6. GENERAL SECTIONS */
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #0b1f3a;
+    text-align: center;
+}
+
+/* 7. MATCH SCHEDULE TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5fa;
+}
+
+/* 8. BOOKING FORM */
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #0b1f3a;
+}
+
+/* 9. INPUT FIELDS */
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* 10. BUTTONS */
+
+button {
+    background-color: #0b1f3a;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #173d68;
+}
+
+/* 11. BOOKING SUMMARY */
+
+.booking-summary,
+#booking-summary {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff8e5;
+    border: 1px solid #ffc83d;
+    border-radius: 8px;
+}
+
+/* 12. CARDS */
+
+.card,
+.guideline-card {
+    background-color: #f8f9fc;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card h3,
+.guideline-card h3 {
+    color: #0b1f3a;
+}
+
+/* 13. FOOTER */
+
+footer {
+    background-color: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 14. MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 13px;
+    }
+
+    #home {
+        padding: 40px 15px;
+    }
+
+    #home h1,
+    #home h2,
+    #home h3 {
+        font-size: 24px;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+
+    section {
+        margin: 12px 8px;
+        padding: 18px 12px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+    }
+}
